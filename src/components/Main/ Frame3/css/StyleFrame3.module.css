@@ -1,0 +1,180 @@
+.containerFrame3{
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    height: 1222px;
+}
+
+.containerTitle{
+    margin-top: 130px;
+}
+
+.fireText{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.title{
+    width: 203px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #57B8FF;
+}
+
+.containerTitleContent{
+    display: flex;
+    width: 1320px;
+    height: 196px;
+
+}
+
+.lacestNews{
+    width: 652px;
+    height: 196px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-left: 60px;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 668px;
+    height: 166px;
+    margin-right: 60px;
+}
+
+.content1{
+    width: 590px;
+    height: 650px;
+    margin-left: 60px;
+    
+}
+
+.imgContent1{
+    width: 600px;
+}
+
+.date{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 18px;
+    font-size: 18px;
+    color: #57B8FF;
+}
+
+.content1Text{
+    width: 607px;
+    height: 92px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.containerContent{
+    display: flex;
+}
+
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 682px;
+    margin-left: 30px;
+}
+
+.cardContent2{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.imgContent2{
+    width: 275px;
+    height: 189px;
+}
+
+.dateContent2{
+   width: 116px;
+   height: 16px;
+   font-size: 16px;
+   color: #57B8FF; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.textContent2{
+    width: 281px;
+    height: 68px;
+    color: #FFFFFF;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 412px) {
+    .containerFrame3{
+        width: 400px;
+        height: 2300px;
+    }
+    .containerContent{
+        margin-left: 10px;
+        flex-direction: column;
+    }
+   
+    .containerTitle{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .containerTitleContent{
+        flex-direction: column;
+    }
+
+    .fireText{
+        margin-left: 30px;
+    }
+
+    .lacestNews{
+        width: 300px;
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .buttonContainer{
+        width: 340px;
+        margin-right: 0;
+        
+    }
+
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .imgContent1{
+        width: 300px;
+    }
+
+    .date{
+        font-size: 13px;
+    }
+
+    .content1Text{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .content2{
+        margin-left: 40px;
+        flex-direction: column;
+        width: 400px;
+        height: 2500px;
+    }
+
+}

@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    width: 1320px;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 412px) {
+    .wrapper{
+        width: 420px;
+    }
+}

@@ -1,0 +1,29 @@
+.itemsMenu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    line-height: 35px;
+}
+
+.title{
+    padding-bottom: 31px;
+    color: #FFFFFF;
+}
+
+.link{
+    margin: 0;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #FAC422;
+}
+
+@media screen and (max-width: 412px){
+    .itemsMenu{
+        margin-top: 40px;
+        padding-left: 60px
+    }
+}

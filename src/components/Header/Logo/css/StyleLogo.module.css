@@ -1,0 +1,10 @@
+@media screen and (max-width: 412px) {
+    .adapLogo{
+        width: 120px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+}  
