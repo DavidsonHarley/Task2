@@ -69,7 +69,7 @@
     background: #3B3D46;
 }
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 712px) {
     .containerFrame2{
         width: 440px;
         align-items: flex-start;

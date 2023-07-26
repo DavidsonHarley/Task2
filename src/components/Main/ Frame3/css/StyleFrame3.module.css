@@ -112,7 +112,7 @@
     font-size: 23px;
 }
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 712px) {
     .containerFrame3{
         width: 400px;
         height: 2300px;
