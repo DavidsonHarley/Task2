@@ -16,7 +16,7 @@
     color: #FAC422;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 612px) {
     .navBar{
         align-items: center;
         margin-top: 30px;

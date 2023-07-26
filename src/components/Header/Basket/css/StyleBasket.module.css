@@ -3,7 +3,7 @@
     cursor: pointer;
 }
 
-@media screen and ( max-width: 412px) {
+@media screen and ( max-width: 612px) {
     .containerImg{
         margin: 10px;
     }

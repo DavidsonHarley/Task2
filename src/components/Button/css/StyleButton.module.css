@@ -34,7 +34,7 @@
     transform: translate(0, 0.25em);
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 612px) {
     .button{
         width: 100px;
         height: 50px;

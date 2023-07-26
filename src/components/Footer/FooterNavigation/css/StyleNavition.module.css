@@ -21,7 +21,7 @@
     color: #FAC422;
 }
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 612px){
     .itemsMenu{
         margin-top: 40px;
         padding-left: 60px
